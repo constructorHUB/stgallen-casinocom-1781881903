@@ -1,0 +1,5 @@
+User-agent: * 
+Allow: / 
+Disallow: /casino/
+Disallow: /*/casino/
+Sitemap: https://stgallen-casino.com/sitemap.xml

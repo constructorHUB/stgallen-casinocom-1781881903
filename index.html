@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+    <script src="./common.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1781871538-1765534756-stgallen.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Swiss Casino St. Gallen — Roulet­te, Blackj­ack, Automa­ten und Royal Jackpot</title>
+    <meta name="description"
+          content="Swiss Casino St. Gallen verbin­det Roulet­te, Blackj­ack, Ultima­te Texas Hold’em, Texas Hold’em, mehr als 200 Spiela­utomat­en, Royal Jackpot, Galact­ic Spin, Bar, Lounge und Radiss­on &amp; Casino Menü.">
+    <link rel="canonical" href="https://stgallen-casino.com">
+    <meta property="og:title" content="Swiss Casino St. Gallen — Roulet­te, Blackj­ack, Automa­ten und Royal Jackpot">
+    <meta property="og:description"
+          content="Swiss Casino St. Gallen verbin­det Roulet­te, Blackj­ack, Ultima­te Texas Hold’em, Texas Hold’em, mehr als 200 Spiela­utomat­en, Royal Jackpot, Galact­ic Spin, Bar, Lounge und Radiss­on &amp; Casino Menü.">
+    <meta property="og:url" content="https://stgallen-casino.com">
+    <meta property="og:site_name" content="Swiss Casino St. Gallen — Roulet­te, Blackj­ack, Automa­ten und Royal Jackpot">
+    <meta property="og:locale" content="de-CH">
+    <meta property="og:image" content="_assets/images/1781871527-1765534657-182248-1.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="stgallen-casino.com">
+    <meta name="twitter:title" content="Swiss Casino St. Gallen — Roulet­te, Blackj­ack, Automa­ten und Royal Jackpot">
+    <meta name="twitter:description"
+          content="Swiss Casino St. Gallen verbin­det Roulet­te, Blackj­ack, Ultima­te Texas Hold’em, Texas Hold’em, mehr als 200 Spiela­utomat­en, Royal Jackpot, Galact­ic Spin, Bar, Lounge und Radiss­on &amp; Casino Menü.">
+    <meta name="twitter:image" content="_assets/images/1781871527-1765534657-182248-1.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1781871532-1765547320-favicon-onlineswisscasinosch.webp" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="de-CH">
+    <link rel="apple-touch-icon" href="_assets/images/1781871482-1765547320-favicon-onlineswisscasinosch.webp" sizes="96x96">
+    <link rel="icon" href="_assets/images/1781871482-1765547320-favicon-onlineswisscasinosch.webp" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1781871570-1765534657-182248-1.webp" as="image" fetchpriority="high">
+
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#E3381B"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#F9B000"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#E3381B"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#E3381B"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#F9B000"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#222829"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+
+    <header class="header" id="top">
+        <div class="headerBlock">
+
+            <!-- Logo -->
+            <div class="headerLogoContainer">
+                <a href="https://stgallen-casino.com" aria-label="Main page">
+                    <img
+                            class="header__logo logo"
+                            src="_assets/images/1781871538-1765534756-stgallen.svg"
+                            alt="Casino St. Gallen Logo"
+                    />
+                </a>
+            </div>
+
+            <div class="navBlockMain">
+
+            <!-- Main Navigation -->
+            <nav>
+                <button class="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                </button>
+
+                <ul class="nav__list nav__list--header">
+
+                    <li><a href="index">index</a></li>
+                    <li><a href="restaurants">Restaurants</a></li>
+                    <li><a href="online">Online</a></li>
+                    <li><a href="vip">VIP</a></li>
+                    <li><a href="events">Events</a></li>
+                    <li><a href="uberuns">Über uns</a></li>
+                    <li><a href="nutzungsbedingungen">Nutzungsbedingungen</a></li>
+                    <li><a href="datenschutz">Datenschutz</a></li>
+                    <li><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+                <!-- CTA buttons -->
+                <div class="btn__list">
+<!--                    <div class="nav__item">-->
+<!--                        <a-->
+<!--                                class="nav__link"-->
+<!--                                target="_blank"-->
+<!--                                href="casino.html?id=example-offer-id"-->
+<!--                                aria-label=""-->
+<!--                                id="navSignUp"-->
+<!--                        >-->
+<!--                            -->
+<!--                        </a>-->
+<!--                    </div>-->
+
+                    <div class="nav__item nav__itemLarge">
+                        <a
+                                class="nav__link nav__linkLarge"
+                                target="_blank"
+                                href="casino.html?id=example-offer-id"
+                                aria-label="Jetzt spielen"
+                                id="navPlayNow"
+                        >
+                            Jetzt spielen
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextMobile">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Spiel starten"><span
+                            class="heroButton btn btn--large">Bonus sichern</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Swiss Casino St. Gallen — Tischs­piele, Jackpo­ts, Bar und Poker unter einem Dach</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top-Casino <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> Alle Casino </button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Vorteile</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup">Im Swiss Casino St. Gallen verbin­den wir klassi­sches Tischs­piel, moderne Automa­ten, Poker, Bar-Kultur und einen unkomp­lizier­ten Besuch in einem stilvo­llen Umfeld.</li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Royal Jackpot an vier vernet­zten Marken­stando­rten</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Galact­ic Spin mit Multip­likato­ren bis 150x</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Blackj­ack Side Bets ab CHF 5</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Online-Bonus bei Swiss Casinos bis CHF 1400</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Mehr als 200 moderne Spiela­utomat­en im Haus</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Bar und Lounge im Radiss­on Blu</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Kosten­loser Eintri­tt und zentra­le Lage im Zentrum</p>
+                                </li>
+                                <li class="providersGroup">Unser Casino steht für eine klare Spiela­uswahl, persön­liche Atmosp­häre und ein Erlebn­is, das sich gut mit Dinner, Drinks und einem Abend in der Stadt kombin­ieren lässt.</li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Mehr erfahren"><span
+                                class="advantagesButton btn btn--large">Mehr erfahren</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Swiss Casino St. Gallen App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1781872367-1765534995-stg.webp" title="Casino St. Gallen Mobile"
+                                alt="Swiss Casino St. Gallen App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Swiss Casino St. Gallen App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Swiss Casino St. Gallen App" title="Swiss Casino St. Gallen App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Beliebte Spiele</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="Alle Spiele"><span
+                            class="gamesButton btn btn--large">Alle Spiele</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Über das Casino Swiss Casino St. Gallen</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">Wir heben uns durch vernet­zte Jackpo­ts, echte Tischa­tmosph­äre und moderne Spiels­tation­en ab. Dazu kommen Bar, Pokera­bende, Events und das Radiss­on &amp; Casino Menü als stimmi­ge Ergänz­ung zum Casino­besuch.</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Royal Jackpot: 100% Jackpot.</li>
+                                        <li class="historyItem">Galact­ic Spin: bis 150x.</li>
+                                        <li class="historyItem">BlackJ­ackPot: CHF 250 alle.</li>
+                                    </ul>
+                                    <p class="historyDescription">Swiss Casino St. Gallen ist unser urbanes Casino für Tischs­piele, Automa­ten, Poker, Drinks und entspa­nnte Begegn­ungen. Wir gestal­ten den Besuch so, dass Spiel, Bar, Lounge und Gastro­nomie natürl­ich ineina­ndergr­eifen. Im Mittel­punkt stehen Roulet­te, Blackj­ack, Ultima­te Texas Hold’em, Texas Hold’em und eine breite Auswahl modern­er Spiela­utomat­en.</p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1781872490-1765535008-mac-stg.webp" alt="Swiss Casino St. Gallen" title="Casino St. Gallen Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">Wer ein schnel­leres Spielg­efühl sucht, findet bei Multi Roulet­te und den elektr­onisch­en Blackj­ack-Statio­nen passen­de Option­en. Wer lieber am klassi­schen Tisch spielt, erlebt Croupi­ers, klare Abläufe und direkte Casino­stimmu­ng. Pokerf­ans schätz­en die persön­liche Atmosp­häre, die festen Spielz­eiten und die Nähe zum Gesche­hen. Unsere Bar und Lounge schaff­en Raum für Gesprä­che, Pausen und einen stilvo­llen Start in den Abend. Durch die Lage im Radiss­on Blu lässt sich der Casino­besuch gut mit Dinner, Hotelk­omfort und weiter­en Erholu­ngsmom­enten verbin­den. Events, Jackpot-Formate und Casino-Führun­gen ergänz­en unser Angebot jensei­ts des reinen Spiels. Unser Anspru­ch ist ein Besuch, der modern, zugäng­lich, unterh­altsam und zuglei­ch angene­hm strukt­uriert bleibt.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Swiss Casino St. Gallen Boni, Sonderangebote und Spiel-Jackpots</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;">
+Swiss Casino St. Gallen — Boni, Jackpo&shy;ts und Spiela&shy;ktione&shy;n
+</h3>
+<p>
+Im Swiss Casino St. Gallen setzen wir auf Spielm&shy;omente, die über das klassi&shy;sche Tischs&shy;piel hinaus&shy;gehen. Der Royal Jackpot verbin&shy;det Blackj&shy;ack und Ultima&shy;te Texas Hold’em mit progre&shy;ssiven Gewinn&shy;stufen innerh&shy;alb der Swiss Casinos Welt. Beim Ultima&shy;te Texas Hold’em kann eine zusätz&shy;liche CHF 5 Wette den Zugang zum Jackpot eröffn&shy;en, während ein Royal Flush 100% des aktuel&shy;len Jackpo&shy;twerts erreic&shy;hen kann. Daneben gibt es feste Auszah&shy;lungen für starke Pokerh&shy;ände wie Commun&shy;ity Royal, Straig&shy;ht Flush, Four of a Kind und Full House. Beim Blackj&shy;ack sorgen BlackJ&shy;ackPot, Swiss Casinos Jack, Poker Bet und Bust für zusätz&shy;liche Entsch&shy;eidung&shy;sebene&shy;n. Besond&shy;ers markant ist BlackJ&shy;ackPot, weil bei einer Jackpot-Auszah&shy;lung alle teilne&shy;hmende&shy;n Gäste am Tisch CHF 250 erhalt&shy;en. Galact&shy;ic Spin Roulet&shy;te ergänzt unser Angebot mit schnel&shy;len Runden, einem Mindes&shy;teinsa&shy;tz ab CHF 1 und Multip&shy;likato&shy;ren bis 150x. Die elektr&shy;onisch&shy;en Blackj&shy;ack-Statio&shy;nen starten ab CHF 5 und passen gut zu Gästen, die klare Abläufe und Tempo schätz&shy;en. Gambli&shy;ng Night bringt eine andere Dynamik ins Haus: Promo-Chips, intera&shy;ktive Spiele und ein Gesamt&shy;preisp&shy;ool von CHF 10 000 schaff&shy;en Eventc&shy;harakt&shy;er. Online erweit&shy;ert Swiss Casinos die Marken&shy;welt mit Welcome Bonus, Free Spins, Golden Chips, Game of the Week und Slot-Turnie&shy;ren. Saison&shy;ale Aktion&shy;en und Themen&shy;abende sorgen dafür, dass der Besuch nicht nur vom Spielp&shy;lan, sondern auch vom Anlass geprägt wird. Alle Aktion&shy;en richten sich nach den jeweil&shy;igen Beding&shy;ungen, Spielr&shy;egeln und verfüg&shy;baren Termin&shy;en.
+</p>
+<br>
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px">
+  <thead>
+    <tr style="background-color: #F9B000;">
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Format</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Beispi&shy;elwert&shy;e</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Kurzbe&shy;schrei&shy;bung</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Royal Jackpot Ultima&shy;te Texas Hold’em</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">100% Jackpot bei Royal Flush</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Progre&shy;ssiver Jackpot mit separa&shy;ter CHF 5 Wette.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Commun&shy;ity Royal</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">CHF 5000</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Feste Auszah&shy;lung für eine seltene gemein&shy;same Royal-Kombin&shy;ation.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Straig&shy;ht Flush</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">CHF 1500</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Zusätz&shy;liche Auszah&shy;lung für eine sehr starke Pokerh&shy;and.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Four of a Kind</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">CHF 500</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Feste Auszah&shy;lung für Vierli&shy;ng im Jackpot-Schema.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Full House</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">CHF 50</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Bekann&shy;te Pokerk&shy;ombina&shy;tion mit eigener Auszah&shy;lungss&shy;tufe.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Royal Jackpot Blackj&shy;ack Major</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Beispi&shy;el CHF 31 979</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Progre&shy;ssiver Hauptj&shy;ackpot für suited ace & jack bei Spieler und Bank.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Royal Jackpot Blackj&shy;ack Minor</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Beispi&shy;el CHF 7 817</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Kleine&shy;re progre&shy;ssive Jackpo&shy;tstufe für eine passen&shy;de Karten&shy;lage.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>BlackJ&shy;ackPot</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">CHF 250 pro teilne&shy;hmende&shy;m Gast</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Tischw&shy;eite Fixzah&shy;lung bei einer Jackpot-Auszah&shy;lung.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Swiss Casinos Jack</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">50:1, 25:1 oder 10:1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Zusatz&shy;wette auf eine Blackj&shy;ack-Varian&shy;te der Bank.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Poker Bet</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">8.5:1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Auszah&shy;lung für Flush, Straig&shy;ht oder Drilli&shy;ng aus den offenen Karten.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Bust</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">2.5x Einsatz</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Auszah&shy;lung, wenn die Bank über 21 Punkte kommt.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Galact&shy;ic Spin Roulet&shy;te</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis 150x</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Elektr&shy;onisch&shy;es Roulet&shy;te mit Multip&shy;likato&shy;ren und Bonusf&shy;eature&shy;s.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Gambli&shy;ng Night</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">CHF 10 000 Gesamt&shy;preisp&shy;ool</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Eventa&shy;bend mit Promo-Chips, Spielk&shy;redit und Unterh&shy;altung.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Welcome Bonus Online</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis CHF 1400 und Free Spins</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Digita&shy;les Angebot der Marke Swiss Casinos mit eigenen Beding&shy;ungen.</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Game of the Week Online</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis 60 Free Spins, CHF 15 oder 15 Golden Chips</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Wöchen&shy;tlich wechse&shy;lnde Aktion für ausgew&shy;ählte Spiele.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<p>
+Der Royal Jackpot verlei&shy;ht Tischs&shy;pielen eine zusätz&shy;liche progre&shy;ssive Ebene. BlackJ&shy;ackPot macht den gesamt&shy;en Tisch zum Teil eines besond&shy;eren Moments, sobald die passen&shy;den Karten ersche&shy;inen. Galact&shy;ic Spin bietet Tempo, Technik und Bonusm&shy;echani&shy;ken in einer modern&shy;en Spiels&shy;tation. Gambli&shy;ng Night ist unser Eventf&shy;ormat für Gäste, die Spiel, Musik, Promo-Chips und Preise in einer gemein&shy;samen Abends&shy;timmun&shy;g erleben möchten. Die Online-Angebo&shy;te gehören zur digita&shy;len Swiss Casinos Plattf&shy;orm und folgen eigenen Bonusr&shy;egeln.
+</p>
+<br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Softwareanbieter </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Spiele und Einsätze im Swiss Casino St. Gallen: Möglichkeiten für jedes Spielformat</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;">
+Swiss Casino St. Gallen — belieb&shy;te Spiele und Spielb&shy;ereich&shy;e
+</h3>
+<p>
+Im Swiss Casino St. Gallen verbin&shy;den wir klassi&shy;sche Tische, elektr&shy;onisch&shy;e Statio&shy;nen, Automa&shy;ten und Poker in einem kompak&shy;ten Erlebn&shy;is. Gäste können zwisch&shy;en ruhigem Spielt&shy;empo, schnel&shy;len Runden und direkt&shy;er Tischa&shy;tmosph&shy;äre wählen. Americ&shy;an Roulet&shy;te bleibt ein Kernsp&shy;iel, weil jede Drehung klar, spanne&shy;nd und leicht verstä&shy;ndlich ist. Blackj&shy;ack bringt einfac&shy;he Grundr&shy;egeln, schnel&shy;le Entsch&shy;eidung&shy;en und zusätz&shy;liche Wettop&shy;tionen zusamm&shy;en. Ultima&shy;te Texas Hold’em spricht Gäste an, die Pokerh&shy;ände mögen, aber gegen die Bank spielen möchten. Texas Hold’em schafft eine andere Spannu&shy;ng, weil die Spiele&shy;rinnen und Spieler am Tisch gegene&shy;inande&shy;r antret&shy;en. Unsere Automa&shy;tenflä&shy;che bietet moderne Video-Slots, klassi&shy;sche Walzen&shy;spiele und Video-Poker. Multi Roulet&shy;te und Galact&shy;ic Spin ergänz&shy;en das Spiela&shy;ngebot mit digita&shy;len Statio&shy;nen, niedri&shy;gen Mindes&shy;teinsä&shy;tzen und zügigem Ablauf. Pokera&shy;bende und Turnie&shy;re geben dem Casino einen sozial&shy;en Charak&shy;ter, der über einzel&shy;ne Runden hinaus&shy;geht. Bar und Lounge liegen nah am Gesche&shy;hen und machen Pausen einfach. So entste&shy;ht ein Besuch, bei dem sich Spiel, Gesprä&shy;che, Drinks und Events&shy;timmun&shy;g gut mitein&shy;ander verbin&shy;den lassen. Der Zutritt zum Spielb&shy;ereich ist Gästen ab 18 Jahren mit gültig&shy;em Ausweis vorbeh&shy;alten.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Tischs&shy;piele
+</h4>
+
+ <ul>
+            <li>• Americ&shy;an Roulet&shy;te — vier Tische, Croupi&shy;er-Atmosp&shy;häre und Einsät&shy;ze ab CHF 5, am Wochen&shy;ende im Fun Pit ab CHF 1.</li>
+            <li>• Blackj&shy;ack — vier Tische, Mindes&shy;teinsa&shy;tz ab CHF 10 und Weekend-Fun-Pit ab CHF 5.</li>
+            <li>• Ultima&shy;te Texas Hold’em — Poker gegen die Bank mit CHF 5 Minimum, CHF 200 Maximum und option&shy;aler Trips-Wette.</li>
+            <li>• Royal Jackpot Tables — Blackj&shy;ack und Ultima&shy;te Texas Hold’em mit separa&shy;ter CHF 5 Jackpot-Wette.</li>
+
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Elektr&shy;onisch&shy;e Spiele
+</h4>
+
+ <ul>
+            <li>• Multi Roulet&shy;te — 16 Termin&shy;als, Einsät&shy;ze ab CHF 1 und ein besond&shy;ers flüssi&shy;ger Spielr&shy;hythmu&shy;s.</li>
+            <li>• Galact&shy;ic Spin Roulet&shy;te — Bonusf&shy;eature&shy;s, Multip&shy;likato&shy;ren bis 150x und moderne Spintec-Statio&shy;nen.</li>
+            <li>• Galact&shy;ic Spin Blackj&shy;ack — virtue&shy;lles Blackj&shy;ack ab CHF 5 mit Zusatz&shy;wetten und klarer Runden&shy;strukt&shy;ur.</li>
+
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Automa&shy;ten und Video-Poker
+</h4>
+
+ <ul>
+            <li>• Spiela&shy;utomat&shy;en — mehr als 200 Geräte mit versch&shy;iedene&shy;n Themen, Volati&shy;litäte&shy;n und Spielm&shy;echani&shy;ken.</li>
+            <li>• Video-Poker — Karten&shy;spiel-Logik am Automa&shy;ten ohne Wartez&shy;eit am Tisch.</li>
+            <li>• Slot Card — eine prakti&shy;sche Ergänz&shy;ung für Gäste, die ihre bevorz&shy;ugten Automa&shy;ten komfor&shy;tabel nutzen möchten.</li>
+
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Poker
+</h4>
+
+ <ul>
+            <li>• Texas Hold’em — No-Limit-Format mit 10 Plätzen, CHF 5/CHF 5 Blinds und Tischs&shy;take von CHF 200 bis CHF 1000.</li>
+            <li>• Pokera&shy;bende — feste Spielz&shy;eiten für Gäste, die Strate&shy;gie, Tischg&shy;espräc&shy;h und Live-Atmosp&shy;häre schätz&shy;en.</li>
+            <li>• Turnie&shy;re — spezie&shy;lle Termine mit eigener Strukt&shy;ur, eigenem Rhythm&shy;us und klaren Spielr&shy;egeln.</li>
+
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Swiss Casino St. Gallen — Einsät&shy;ze nach Spielen und Bereic&shy;hen
+</h3>
+<p>
+Im Swiss Casino St. Gallen richten sich Einsät&shy;ze nach Spiela&shy;rt, Bereich und Tischk&shy;onfigu&shy;ration. Elektr&shy;onisch&shy;e Formate ermögl&shy;ichen einen niedri&shy;gen Einsti&shy;eg, während klassi&shy;sche Tische stärker von der jeweil&shy;igen Tischs&shy;truktu&shy;r geprägt sind. Poker folgt eigenen Parame&shy;tern wie Blinds, Table Stake und Reserv&shy;ierung. Alle Beträge werden in CHF geführt, und konkre&shy;te Höchst&shy;werte können je nach Tisch, Station oder laufen&shy;dem Spielb&shy;etrieb angepa&shy;sst werden.
+</p>
+<br>
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px">
+  <thead>
+    <tr style="background-color: #F9B000;">
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Spiel oder Bereich</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Mindes&shy;teinsa&shy;tz</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Maxima&shy;lwert oder Limit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Americ&shy;an Roulet&shy;te</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab CHF 5</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">nach Tischl&shy;imit</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Americ&shy;an Roulet&shy;te Fun Pit</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab CHF 1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">nach Tischl&shy;imit</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Multi Roulet&shy;te</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab CHF 1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">nach Termin&shy;allimi&shy;t</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Multi Roulet&shy;te einfac&shy;he Chancen</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab CHF 5</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">nach Termin&shy;allimi&shy;t</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Galact&shy;ic Spin Roulet&shy;te</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab CHF 1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis 150x Multip&shy;likato&shy;r im Bonusf&shy;eature</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Blackj&shy;ack</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab CHF 10</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">nach Tischl&shy;imit</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Blackj&shy;ack Fun Pit</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab CHF 5</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">nach Tischl&shy;imit</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Galact&shy;ic Spin Blackj&shy;ack</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab CHF 5</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">nach Statio&shy;nslimi&shy;t</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Ultima&shy;te Texas Hold’em</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab CHF 5</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis CHF 200</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Ultima&shy;te Texas Hold’em Ante und Blind</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">CHF 5 + CHF 5</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">nach Tischl&shy;imit</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Royal Jackpot Wette</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">CHF 5</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">100% Jackpot bei Royal Flush</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Texas Hold’em No Limit</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">CHF 5 / CHF 5 Blinds</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">CHF 200–CHF 1000 Table Stake oder auf Anfrage</td>
+    </tr>
+    <tr >
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Spiela&shy;utomat&shy;en</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab 1 Rappen</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">nach Geräte&shy;limit</td>
+    </tr>
+  </tbody>
+</table>
+<br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>FAQ</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="welche_dokumente_werden_im_swiss_casino_st_gallen_bentigt"/><label
+                            class="faqLabel" for="welche_dokumente_werden_im_swiss_casino_st_gallen_bentigt">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Welche Dokume­nte werden im Swiss Casino St. Gallen benöti­gt? </span></label>
+                        <div class="faqContent">
+                            <p>Für den Zutritt benöti­gen Gäste einen gültig­en amtlic­hen Ausweis, etwa ID, Pass oder Führer­auswei­s. Der Spielb­ereich ist Gästen ab 18 Jahren vorbeh­alten.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="kostet_der_eintritt_ins_swiss_casino_st_gallen_etwas"/><label
+                            class="faqLabel" for="kostet_der_eintritt_ins_swiss_casino_st_gallen_etwas">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Kostet der Eintri­tt ins Swiss Casino St. Gallen etwas? </span></label>
+                        <div class="faqContent">
+                            <p>Der Eintri­tt in unser Casino ist kosten­los. Nach der Zutrit­tskont­rolle können Gäste Tischs­piele, Automa­ten, Bar, Lounge oder Events nutzen.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="gibt_es_parkmglichkeiten_beim_swiss_casino_st_gallen"/><label
+                            class="faqLabel" for="gibt_es_parkmglichkeiten_beim_swiss_casino_st_gallen">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Gibt es Parkmö­glichk­eiten beim Swiss Casino St. Gallen? </span></label>
+                        <div class="faqContent">
+                            <p>Rund um Radiss­on/Casino St. Gallen stehen Parkpl­ätze zur Verfüg­ung. Weitere Parkop­tionen befind­en sich in der näheren Umgebu­ng.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="bietet_swiss_casino_st_gallen_casinofhrungen_an"/><label
+                            class="faqLabel" for="bietet_swiss_casino_st_gallen_casinofhrungen_an">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Bietet Swiss Casino St. Gallen Casino-Führun­gen an? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, wir bieten Führun­gen für Gruppen bis 10 Person­en an. Dabei erklär­en wir Spiele, Abläufe und die besond­ere Atmosp­häre unseres Hauses.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="worin_unterscheidet_sich_swiss_casino_st_gallen_vom_onlineangebot"/><label
+                            class="faqLabel" for="worin_unterscheidet_sich_swiss_casino_st_gallen_vom_onlineangebot">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Worin unters­cheide­t sich Swiss Casino St. Gallen vom Online-Angebot? </span></label>
+                        <div class="faqContent">
+                            <p>Unser Haus bietet Live-Atmosp­häre, Croupi­ers, reale Tische, Bar, Lounge und Events vor Ort. Das Online-Angebot von Swiss Casinos ist ein digita­les Marken­angebo­t mit eigenen Spielen, Boni und Regeln.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://stgallen-casino.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1781871599-1765534756-stgallen.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Casino St. Gallen" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Casino St. Gallen" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Casino St. Gallen" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Casino St. Gallen" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Casino St. Gallen" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Casino St. Gallen" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Casino St. Gallen" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Casino St. Gallen" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Casino St. Gallen" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Casino St. Gallen" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Casino St. Gallen" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Casino St. Gallen" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Casino St. Gallen" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Casino St. Gallen" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Casino St. Gallen" /></div>
+            </div>
+        </div>
+        <div class="footerNavBlock">
+            <nav>
+                <ul class="nav__list--footer">
+                    <li class="footer__navItem"><a href="index">index</a></li>
+                    <li class="footer__navItem"><a href="restaurants">Restaurants</a></li>
+                    <li class="footer__navItem"><a href="online">Online</a></li>
+                    <li class="footer__navItem"><a href="vip">VIP</a></li>
+                    <li class="footer__navItem"><a href="events">Events</a></li>
+                    <li class="footer__navItem"><a href="uberuns">Über uns</a></li>
+                    <li class="footer__navItem"><a href="nutzungsbedingungen">Nutzungsbedingungen</a></li>
+                    <li class="footer__navItem"><a href="datenschutz">Datenschutz</a></li>
+                    <li class="footer__navItem"><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Casino St. Gallen </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Bonus sichern";
+    var welcomeBonusText = "Willkommensbonus";
+    var bonusDetailsButtonText = "";
+    var playNowText = "Jetzt spielen";
+    var maximumAmountText = "";
+    var wagerText = "";
+    var bonusCodeText = "";
+    var depositText = "";
+    var casinoName = "Casino St. Gallen";
+</script>
+
+</body>
+</html>
